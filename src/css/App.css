@@ -8,6 +8,9 @@ body{
     font-family: 'Karla', sans-serif;
 }
 
+main{
+    padding: 36px;
+}
 
 /* header */
 header{
@@ -27,7 +30,32 @@ header{
 .header-title{
     font-weight: 700;
     font-size: 20px;
-    margin-right: auto;
+    margin-left: 20px;
 
 }
 /* end of header */
+
+/* form */
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 15px;
+}
+
+.input-form{
+    font-family: 'Karla', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.button-form{
+    grid-column: 1 / -1;
+    font-family: 'Karla', sans-serif;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* end of form */
