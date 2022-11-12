@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Karla', sans-serif;
 }
 
-main{
+main {
     padding: 36px;
 }
 
 /* header */
-header{
+header {
     display: flex;
     align-items: center;
     height: 65px;
@@ -22,34 +22,33 @@ header{
     padding: 20px;
 }
 
-.header-image{
+.header-image {
     height: 100%;
     margin-right: 6px;
 }
 
-.header-title{
+.header-title {
     font-weight: 700;
     font-size: 20px;
     margin-left: 20px;
-
 }
 /* end of header */
 
 /* form */
-.form{
+.form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 15px;
 }
 
-.input-form{
+.input-form {
     font-family: 'Karla', sans-serif;
     border-radius: 5px;
     border: 1px solid #D5D4D8;
     text-indent: 5px;
 }
 
-.button-form{
+.button-form {
     grid-column: 1 / -1;
     font-family: 'Karla', sans-serif;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
@@ -59,3 +58,12 @@ header{
     cursor: pointer;
 }
 /* end of form */
+
+/* meme image*/
+.meme-image {
+    max-width: 100%;
+    margin-top: 25px;
+
+    /* text-align: center; */
+}
+/* end of meme image */
